@@ -6,6 +6,6 @@ def square_array(array)
   new_array.push(array[counter]**counter)
   counter += 1
   end
-  binding,pry
+  binding.pry
   new_array
 end
